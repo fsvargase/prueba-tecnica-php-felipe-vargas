@@ -1,1 +1,1 @@
-{"version":1,"defects":{"UserTest::testUserProperties":7},"times":{"UserTest::testUserProperties":0.003,"UserTest::testSettersAndGetters":0}}
+{"version":1,"defects":{"UserTest::testUserProperties":7},"times":{"UserTest::testUserProperties":0,"UserTest::testSettersAndGetters":0,"UserRepositoryTest::testSaveAndGetUserByEmail":0.003,"UserRepositoryTest::testUpdateUser":0,"UserRepositoryTest::testDeleteUser":0,"UserRepositoryTest::testUserNotFound":0}}

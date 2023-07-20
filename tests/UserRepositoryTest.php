@@ -3,9 +3,8 @@
 use PHPUnit\Framework\TestCase;
 use App\Clases\User;
 use App\Clases\UserRepository;
-/*
 use App\Clases\UserNotFoundException;
-use App\Clases\UserAlreadyExistsException;*/
+/*use App\Clases\UserAlreadyExistsException;*/
 
 
 class UserRepositoryTest extends TestCase
