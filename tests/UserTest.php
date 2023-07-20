@@ -7,11 +7,12 @@ class UserTest extends TestCase
 {
     public function testUserAttributes(): void
     {
-        $user = new User("Felipe Vargas", "felipe@example.com", "password123");
+        $user = new User("John Doe", "john@example.com", "password123");
 
-        $this->assertEquals("Felipe Vargas", $user->getName());
-        $this->assertEquals("felipe@example.com", $user->getEmail());
+        $this->assertEquals("John Doe", $user->getName());
+        $this->assertEquals("john@example.com", $user->getEmail());
         $this->assertEquals("password123", $user->getPassword());
     }
 
 }
+
